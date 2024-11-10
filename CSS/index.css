@@ -33,3 +33,12 @@
   background-color: #8a6749;
   color: #fff;
 }
+
+@media screen and (max-width: 767px) {
+  .quote-background h1 {
+    font-size: calc(2rem + 8vw );
+  }
+  .quote-background p {
+    font-size: calc(.5rem + 5vw);
+  }
+}
