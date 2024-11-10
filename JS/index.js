@@ -1,3 +1,4 @@
+var lastQouteIndex;
 function randomQoutes() {
   var qoute = [
     "“Be yourself; everyone else is already taken.”",
@@ -16,7 +17,14 @@ function randomQoutes() {
     "― Oscar Wilde",
   ];
 
-  var randomQoute = Math.floor(Math.random() * qouteAuthor.length);
+  for (var i = 0; i < qouteAuthor.length; i++) {
+    var randomQoute = Math.floor(Math.random() * qouteAuthor.length);
+    if (randomQoute === lastQouteIndex) {
+      continue;
+    }
+    lastQouteIndex = randomQoute;
+    break;
+  }
 
   document.getElementById("qoutes").innerHTML = qoute[randomQoute];
   document.getElementById("authorOfQoute").innerHTML = qouteAuthor[randomQoute];
