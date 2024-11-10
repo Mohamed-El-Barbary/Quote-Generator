@@ -4,6 +4,7 @@
   background-size: cover;
   background-position: 0 0;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .quote-background h1 {
@@ -14,19 +15,19 @@
   margin-bottom: 60px;
 }
 .quote-background p {
-  color: #f2e6d4;
-  padding-inline: 100px;
-  font-family: "Merriweather", serif;
   font-size: 25px;
-  height: 60px;
+  font-family: "Merriweather", serif;
+  color: #f2e6d4;
+  min-height: 60px;
 }
 
 .quote-background button {
+  padding: 20px 40px;
+  font-size: 20px;
+  color: #f2e6d4;
   background-color: #6b4f36;
   border-color: #6b4f36;
-  color: #f2e6d4;
-  transition: all .4s;
-  font-size: 20px;
+  transition: all 0.4s;
 }
 .quote-background button:hover {
   background-color: #8a6749;
