@@ -1,0 +1,35 @@
+.quote-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../Images/bg4.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.quote-background h1 {
+  color: #8e6d4d;
+  font-family: "Playfair Display SC", serif;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+.quote-background p {
+  color: #f2e6d4;
+  padding-inline: 100px;
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  height: 60px;
+}
+
+.quote-background button {
+  background-color: #6b4f36;
+  border-color: #6b4f36;
+  color: #f2e6d4;
+  padding: 20px 40px;
+  transition: all .4s;
+  font-size: 20px;
+}
+.quote-background button:hover {
+  background-color: #8a6749;
+  color: #fff;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Qoute</title>
+    <!-- ========== Start Google Fonts ========== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ========== End Google Fonts ========== -->
+
+    <!-- ========== Start FontAesome ========== -->
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <!-- ========== End FontAesome ========== -->
+
+    <!-- ========== Start Bootstrap ========== -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <!-- ========== End Bootstrap ========== -->
+
+    <!-- ========== Start Main Css ========== -->
+    <link rel="stylesheet" href="./CSS/index.css" />
+    <!-- ========== End Main Css ========== -->
+
+  </head>
+  <body>
+    <section class="quote-background vh-100">
+      <div class="container pt-5 min-vh-100 text-center text-white">
+        <h1>Quote of the Day</h1>
+        <p class=" mb-3">Press the button below to recieve a random quote!</p>
+        <button class=" mb-4" onclick="randomQoutes()">New Qoute</button>
+        <p id="qoutes"></p>
+        <p id="authorOfQoute"></p>
+      </div>
+    </section>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
